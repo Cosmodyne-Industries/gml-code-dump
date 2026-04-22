@@ -1,5 +1,5 @@
 # gml-code-dump
-My first python script. Reads all .yy and .gml files in the game project root folder, cleans it up and removes headers, then dumps into a single .txt file.
+My first python script. Reads all GameMaker (.yy and .gml only) files in the game project root folder, cleans it up and removes headers, then dumps into a single .txt file.
 
 Potentially useful for small games if you want to share full context with a chatbot. This was my first version and it does the job. v2 has a proper indexing system.
 
