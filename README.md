@@ -1,7 +1,7 @@
 # gml-code-dump
 My first python script. Reads all GameMaker (.yy and .gml only) files in the game project root folder, cleans it up and removes headers, then dumps into a single .txt file.
 
-Potentially useful for small games if you want to share full context with a chatbot. This was my first version and it does the job. v2 will have proper indexing and chunk retreval for a very basic user-driven RAG system for collaboration with free browser based LLMs (i.e. the user becomes "copy-paster-in-chief").
+Potentially useful for small games if you want to share the full context. This was my first version and it does the job. v2 will have proper indexing and chunk retreval for a very basic, user-driven, RAG system (to make it easier to collaborate with free browser based LLMs)
 
 To run, just copy to the root folder of the specific GameMaker project and run it directly from there in CLI or optionally use the batch file. 
 
