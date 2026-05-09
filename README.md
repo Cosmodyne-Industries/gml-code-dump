@@ -1,5 +1,5 @@
 # gml-code-dump (version 2)
-My first python script / workflow. This is very rudimentary, manual RAG system designed for use with GameMaker. The purpose is to streamline AI collaboration and reduce token usage / context bloat, whilst keeping the user fully in-the-loop, by creating a summarised index of all of the objects/scripts in your project to share with your LLM of choice. The LLM can then decide which events it needs to see in full and request this from the user.
+My first python script / workflow. This is very rudimentary, manual RAG system designed for use with GameMaker. The purpose is to streamline AI collaboration and reduce token usage & context bloat (whilst keeping the user fully in-the-loop) by creating a summarised index of all of the objects/scripts in your project to share with your LLM of choice. The LLM can then decide which events it needs to see in full and request this from the user.
 
 ## Contents
 **A) dump_create.py** - reads all of the code from every object/script in the game folder, cleans it up into a readable format, and dumps into a single game_dump.txt file. If a game_dump.txt file already exists in the folder, it will also tag every object/script that has changed since the script was last run.
